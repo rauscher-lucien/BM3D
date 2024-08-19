@@ -86,9 +86,9 @@ def main():
 
     else:
         # Default settings for local testing
-        data_path = r"C:\Users\rausc\Documents\EMBL\data\droso-results\Good_Sample_02_t_1.TIFF"
-        sigma_psd = 0.1
-        output_folder = r"C:\Users\rausc\Documents\EMBL\data\droso-results"
+        data_path = r"\\tier2.embl.de\prevedel\members\Rauscher\data\big_data_small-test\nema\Nematostella_B_V0.TIFF"
+        sigma_psd = 0.09
+        output_folder = r"C:\Users\rausc\Documents\EMBL\data\general-results"
 
         print("Running locally with default settings:")
         print(f"Using data path: {data_path}")
